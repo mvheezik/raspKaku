@@ -1,0 +1,5 @@
+git clone https://github.com/chaanstra/raspKaku
+cd raspKaku/
+g++ -o newkaku newkaku.cpp -I/usr/local/include -L/usr/local/lib -lwiringPi
+./newkaku A 1 on
+./newkaku A 1 off
